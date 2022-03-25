@@ -10,6 +10,9 @@ append 76.208 μs
 small - insert 35.166 μs
 append 69.5 μs
 
+tiny-insert 26.083 μs
+append 42.833 μs
+
 double insert has  an unshift vs the doubleuppend has a .push.
 unshift exponentially gets slower with larger array because it has a O(n)
 time complexity... this is because everytime it sends a new number to the 
