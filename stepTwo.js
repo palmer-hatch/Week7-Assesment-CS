@@ -1,5 +1,5 @@
 
-//1
+//1 O(n^2)- array within an array
 // let zero = [0, 1, 2, -1, 4, 5];
 // let boolVal = false
 // for(let i = 0; i < zero.length; i++){
@@ -10,12 +10,13 @@
 //   }
 // }
 // console.log(boolVal);
+//time O(n)
 
 
 
 
 
-//2
+//2 O(n^2) array within an array
 // let word = 'Monday';
 // let wordArray = word.split('');
 
@@ -37,7 +38,7 @@
 // console.log(isUnique);
 
 
-//3
+//3 O(n) the function depends on the array size
 // function isPangram(string){
 //     const letters = string.toLowerCase().match(/[a-z]/g);
 //     const alphabet = [...new Set(letters)]
@@ -45,11 +46,12 @@
 // }
 
 // console.log(isPangram('The quick brown fox jumps over the lazy dog'))
+//space O(n)
 
 
 
-
-//4let name1 = "chet"
+//4 O(n) depends on array size
+//let name1 = "chet"
 // let name2 = 'larryshea'
 
 
@@ -68,3 +70,4 @@
 // }
 
 // arrLen(name1,name2)
+//space O(n)
